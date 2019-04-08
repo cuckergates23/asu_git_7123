@@ -422,7 +422,7 @@ Ship = function () {
             var vectorx = Math.cos(rad);
             var vectory = Math.sin(rad);
             // move to the nose of the ship
-            bullet.x = this.x + vectorx * 4;
+            bullet.x = this.x + vectorx * 5;
             bullet.y = this.y + vectory * 4;
             bullet.vel.x = 6 * vectorx + this.vel.x;
             bullet.vel.y = 6 * vectory + this.vel.y;
